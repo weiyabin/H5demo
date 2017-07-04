@@ -129,9 +129,9 @@ $(function() {
         //创建音频
         _createAudio: function(val,type,index) {
             if(type == 'qin') {
-                return '<audio id="audio_'+type+'_'+index+'" src="' + __CDNPATH + '/data/qin/'+val+'.mp3" preload="preload"></audio>';
+                return '<audio id="audio_'+type+'_'+index+'" src="https://weiyabin.github.io/H5demo/src/data/qin/'+val+'.mp3" preload="preload"></audio>';
             } else {
-                return '<audio id="audio_'+type+'_'+index+'" src="' + __CDNPATH + '/data/dizi/'+val+'.mp3" preload="preload"></audio>';
+                return '<audio id="audio_'+type+'_'+index+'" src="https://weiyabin.github.io/H5demo/src/data/dizi/'+val+'.mp3" preload="preload"></audio>';
             }
 
         },
@@ -371,7 +371,7 @@ nie.use(["nie.util.mobiShare"],function(){
 });*/
 var info = {
     share: {
-        imgUrl: __CDNPATH + '/data/share.jpg',
+        imgUrl: 'https://weiyabin.github.io/H5demo/src/data/share.jpg',
         shareTimeTitle: '天下HD！！！——中国原创游戏首次登陆苹果旗舰店！',
         descContent: '我报名了《天下HD》西湖 Apple Store 零售店活动，和我一起去玩吧！',
         shareTitle: '天下HD！！！——中国原创游戏首次登陆苹果旗舰店！',
